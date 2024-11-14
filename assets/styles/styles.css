@@ -1,0 +1,147 @@
+@font-face { 
+    font-family: Lato-Regular;
+    src: url("../fonts/Lato/Lato-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face { 
+    font-family: Lato-Bold;
+    src: url("../fonts/Lato/Lato-Bold.ttf");
+    font-style: bold;
+    font-weight: 700;
+}
+
+body {
+	font-family: Lato, sans-serif;
+}
+
+.card{
+	height: 1457px;
+	width: 1440px;
+	background-color: #010625;
+	-webkit-text-fill-color: white;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content{
+	width: 542px;
+	height: 560px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.header-text{
+	font-family: Lato-Bold, sans-serif;
+	width: 405px;
+	height: 318px;
+}
+
+.content-text{
+	width: 542px;
+}
+
+.explore-btn{
+	height: 66px;
+	width: 190px;
+	background: white;
+	-webkit-text-fill-color: #01062D;
+	font-family: Lato, sans-serif;
+	border-radius: 16px;
+	padding: 24px 48px 24px 48px;
+	gap: 10px;
+}
+
+.rectangle{
+	width: 96px;
+	height: 8px;
+	background-color: white;
+	
+}
+
+.text-list{
+	width: 456px;
+	height: 464px;
+	gap: 40px;
+	display: flex;
+	flex-direction: column;
+}
+
+.text-list_info{
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+.text-list_counter{
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 32px;
+}
+
+.top-items{
+	height: 500px;
+	width: 732px;
+	left: 646px;
+	display: flex;
+}
+
+.top-items span{
+	width: 348px;
+	height: 473px;
+	border-bottom-left-radius: 400px;
+	border-bottom-right-radius: 400px;
+}
+.top-item_sharp{
+	background-image: url("../images/top_left.jpg");
+}
+
+.top-item_green_rctgl{
+	background-image: url("../images/top_right.jpg");
+}
+
+.mid-items{
+	top: 757px;
+	left: 64px;
+	display: flex;
+}
+
+.mid-items span{
+	width: 676px;
+	height: 304px;
+	border-radius: 32px;
+}
+
+
+.mid-item_spiral{
+	background-image: url("../images/mid.jpg");
+}
+
+.bot-items{
+	width: 1284px;
+	height: 260px;
+	top: 1133px;
+	left: 64px;
+	gap: 24px;
+	display:flex;
+}
+.bot-items span{
+	height: 260px;
+	width: 428px;
+	border-radius: 16px;
+}
+
+.bot-item_glass{
+	background-image: url("../images/bot_left.jpg");
+}
+
+.bot-item_checks{
+	background-image: url("../images/bot_mid.jpg");
+}
+
+.bot-item_rubick{
+	background-image: url("../images/bot_right.jpg");
+}
