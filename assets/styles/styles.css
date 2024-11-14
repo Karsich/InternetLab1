@@ -12,8 +12,18 @@
     font-weight: 700;
 }
 
-body {
-	font-family: Lato, sans-serif;
+@font-face { 
+    font-family: Lato-Black;
+    src: url("../fonts/Lato/Lato-Black.ttf");
+    font-style: black;
+    font-weight: 900;
+}
+
+@font-face { 
+    font-family: Lato-Thin;
+    src: url("../fonts/Lato/Lato-Thin.ttf");
+    font-style: thin;
+    font-weight: 100;
 }
 
 .card{
@@ -38,10 +48,18 @@ body {
 	font-family: Lato-Bold, sans-serif;
 	width: 405px;
 	height: 318px;
+	font-weight: 800;
+	font-size: 88px;
+	line-height: 105px
 }
 
 .content-text{
+	font-family: Lato-Regular, sans-serif;
 	width: 542px;
+	height: 96px;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
 }
 
 .explore-btn{
@@ -49,7 +67,9 @@ body {
 	width: 190px;
 	background: white;
 	-webkit-text-fill-color: #01062D;
-	font-family: Lato, sans-serif;
+	font-family: Lato-Bold, sans-serif;
+	font-size: 28px;
+	line-height: 18px;
 	border-radius: 16px;
 	padding: 24px 48px 24px 48px;
 	gap: 10px;
@@ -70,14 +90,21 @@ body {
 	flex-direction: column;
 }
 
+.text-list_item{
+	width: 456px;
+	height: 112px;
+	gap: 16px;
+	display:flex;
+}
+
 .text-list_info{
-	font-weight: 300;
+	font-family: Lato-Thin, sans-serif;
 	font-size: 24px;
 	line-height: 32px;
 }
 
 .text-list_counter{
-	font-weight: 900;
+	font-family: Lato-Black, sans-serif;
 	font-size: 32px;
 	line-height: 32px;
 }
@@ -94,6 +121,7 @@ body {
 	height: 473px;
 	border-bottom-left-radius: 400px;
 	border-bottom-right-radius: 400px;
+	
 }
 .top-item_sharp{
 	background-image: url("../images/top_left.jpg");
@@ -104,8 +132,8 @@ body {
 }
 
 .mid-items{
-	top: 757px;
-	left: 64px;
+	width: 676px;
+	height: 304px;
 	display: flex;
 }
 
@@ -113,6 +141,7 @@ body {
 	width: 676px;
 	height: 304px;
 	border-radius: 32px;
+
 }
 
 
