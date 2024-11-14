@@ -38,10 +38,13 @@
 
 .content{
 	width: 542px;
-	height: 560px;
-	display: flex;
-	flex-direction: column;
-	gap: 40px;
+    height: 560px;
+    left: 82px;
+    top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
 }
 
 .header-text{
@@ -95,6 +98,7 @@
 	height: 112px;
 	gap: 16px;
 	display:flex;
+	flex-wrap: wrap;
 }
 
 .text-list_info{
@@ -114,6 +118,7 @@
 	width: 732px;
 	left: 646px;
 	display: flex;
+	justify-content: space-between;
 }
 
 .top-items span{
@@ -121,6 +126,8 @@
 	height: 473px;
 	border-bottom-left-radius: 400px;
 	border-bottom-right-radius: 400px;
+	background-size: cover;
+    background-position: center;
 	
 }
 .top-item_sharp{
@@ -134,14 +141,17 @@
 .mid-items{
 	width: 676px;
 	height: 304px;
+	top: 160px;
 	display: flex;
+	position: relative;
 }
 
 .mid-items span{
 	width: 676px;
 	height: 304px;
 	border-radius: 32px;
-
+	background-size: cover;
+    background-position: center;
 }
 
 
@@ -161,6 +171,8 @@
 	height: 260px;
 	width: 428px;
 	border-radius: 16px;
+	background-size: cover;
+    background-position: center;
 }
 
 .bot-item_glass{
