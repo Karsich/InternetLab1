@@ -37,10 +37,10 @@
 }
 
 .content{
-	width: 542px;
+	width: 485px;
     height: 560px;
-    left: 82px;
-    top: 150px;
+    left: 53px;
+    top: 135px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -139,9 +139,9 @@
 }
 
 .mid-items{
-	width: 676px;
+	width: 660px;
 	height: 304px;
-	top: 160px;
+	top: 145px;
 	display: flex;
 	position: relative;
 }
